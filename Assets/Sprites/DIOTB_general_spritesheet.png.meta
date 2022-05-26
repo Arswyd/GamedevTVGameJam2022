@@ -1,0 +1,1320 @@
+fileFormatVersion: 2
+guid: 76575459455c2d847be72d9217ec0fce
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 127
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d446c20004dc34f9201367acfdff8b
+      internalID: 955147849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 945974ac96acad1499a85e99ac647d53
+      internalID: -1139042053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda67928fce485a43b752703ce0283e1
+      internalID: 2109331499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d897bda04a36b89499adbc6a7a33a183
+      internalID: 1025937751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b71a6dc62dcbe846879111fdee2b974
+      internalID: -1519132523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd82dc50e898b544a8cb173b64b71e5
+      internalID: 777495149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b60728301d71843af0b1fe7b381745
+      internalID: -1717635645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a75010093d7ae414b89c8f2ec5c91067
+      internalID: 1822898802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 665
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db59348fbb591f646b074e4af9b716c0
+      internalID: -1999726461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 665
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 714e8319ea21d5f42b0f2689ae946693
+      internalID: 872719293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 665
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9424083b9b5e1444a8662880ed906e31
+      internalID: -128379840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 665
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 656130f2c8fdee144befe804132efe44
+      internalID: -950422601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 665
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa1eb4d7b744cb749aeefc611c276bad
+      internalID: -1537120003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 665
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4fd1ba793ac1d44b38e3f66a000b77
+      internalID: -1485850418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 665
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a3124fdd4f649489c9e4b75ee0e930
+      internalID: 1288065980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 665
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88204765d3d4f243a0e645d7982e845
+      internalID: 1507813257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 532
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01478651f479b8418550fdf46ce4aef
+      internalID: -209641546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 532
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9876c4ac5fb50643a116c3417edc66a
+      internalID: 1749341867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 532
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec396cee600511e4eb7b7e230b3031af
+      internalID: 235508230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 532
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500bd1ba5d2c3ad4da0f8551e1df4c36
+      internalID: -2039358709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 532
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb6079ee52b53e49aa3bd9ac3a63e4a
+      internalID: -1620216095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 532
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d7bbc33481b809419c70ef9a01a993f
+      internalID: -208201811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 532
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d4c4b595024440408d82fbed6480b09
+      internalID: -659838155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 532
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6b42c14cead204ca3cb8ec70ecc5e0
+      internalID: 1372320400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 399
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403b2b75929228d4b9f3946844e4ecca
+      internalID: 1560278206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 399
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21fa654789939a14f9bf4b663c889828
+      internalID: -1281262830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 399
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9cfbe27ae77f644fb118e33615e7990
+      internalID: -1381953363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 399
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d6f42220741ede4fb3cb0549dce251a
+      internalID: 1158498957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 399
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3bd678db1b6f140a97577735fb5701
+      internalID: -1896650498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 399
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68eb5322183f2064fa1a27ab15a4e6c4
+      internalID: -883436691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 399
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2aa4bf7051d4f4091ef57edef93c9e
+      internalID: 550393226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 399
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f31778ba7348346a6a568ba9cac553
+      internalID: 1529617170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 266
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 204b59cc3b4092c498721f004c20a4c8
+      internalID: -1415818968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 266
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -64, y: -64}
+        - {x: -43, y: 0}
+        - {x: 43, y: 0}
+        - {x: 64, y: -64}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096bedd482c546c4db56f2a533fba401
+      internalID: 857654994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 266
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e86e7d74097f61e489fa3860c87ca81c
+      internalID: -924374542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 266
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9010d65dd82718f42978d64bb11ec4d2
+      internalID: -1432979943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 266
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -64, y: -64}
+        - {x: -64, y: 64}
+        - {x: 64, y: 64}
+        - {x: 64, y: -64}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095217260b31cd449bf87217d58b614b
+      internalID: 1149530584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 266
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -64, y: -64}
+        - {x: -64, y: 64}
+        - {x: 64, y: 64}
+        - {x: 64, y: -64}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a16ac78ecdd0bf47b8bd98550aea594
+      internalID: 1185853761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 266
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -64, y: -64}
+        - {x: -64, y: 64}
+        - {x: 64, y: 64}
+        - {x: 64, y: -64}
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2d3d6bf47e3654ca0d61920694721c
+      internalID: 78480529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 133
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -55, y: -63}
+        - {x: -55, y: 44}
+        - {x: 64, y: 44}
+        - {x: 64, y: -64}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374080a06b1f16a4595273c85ed0da89
+      internalID: 1982167549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 133
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -44, y: -55}
+        - {x: -44, y: 64}
+        - {x: 45, y: 64}
+        - {x: 44, y: -55}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b2cd71d0b9b9841be1351d8054e29b
+      internalID: -2069061634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 133
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cccd2578c2c999c43a09ca02f055a978
+      internalID: 1113489272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 133
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae6e80972ceaef41b1879f77f41b7b7
+      internalID: -542928662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 133
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc1ac6eeccb4c343b7986eaa50c5328
+      internalID: 844983204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 133
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d8a747957dd12e47aae98959ea4c251
+      internalID: 948627713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 133
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e3fb65110f199469c0935344afbd8d
+      internalID: -925258161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -64, y: -64}
+        - {x: -64, y: 44}
+        - {x: 55, y: 44}
+        - {x: 55, y: -64}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3f278b0d37d424aad060b281d29a88
+      internalID: 1754543176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -44, y: -64}
+        - {x: -44, y: 55}
+        - {x: 44, y: 55}
+        - {x: 44, y: -64}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b377ba8c9db2f4cb6f47af8b235bfa
+      internalID: -1897098488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b275fd5d7b2e6ac4a8eeafb5cb45da7b
+      internalID: -1886226762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20df4e30b8409e649ada414e540218ae
+      internalID: -762084191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074e35d3ec9405344a28924338e4a249
+      internalID: -874770599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed807ebd219e859479bb8e4ffb642b8f
+      internalID: -166312568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIOTB_general_spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97bb592de268023489259140b27a92de
+      internalID: -1982724224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DIOTB_general_spritesheet_46: 1754543176
+      DIOTB_general_spritesheet_20: -1620216095
+      DIOTB_general_spritesheet_41: 1113489272
+      DIOTB_general_spritesheet_31: 1529617170
+      DIOTB_general_spritesheet_2: 2109331499
+      DIOTB_general_spritesheet_28: -1896650498
+      DIOTB_general_spritesheet_32: -1415818968
+      DIOTB_general_spritesheet_7: 1822898802
+      DIOTB_general_spritesheet_36: 1149530584
+      DIOTB_general_spritesheet_51: -166312568
+      DIOTB_general_spritesheet_1: -1139042053
+      DIOTB_general_spritesheet_4: -1519132523
+      DIOTB_general_spritesheet_50: -874770599
+      DIOTB_general_spritesheet_12: -1537120003
+      DIOTB_general_spritesheet_17: 1749341867
+      DIOTB_general_spritesheet_25: -1281262830
+      DIOTB_general_spritesheet_29: -883436691
+      DIOTB_general_spritesheet_40: -2069061634
+      DIOTB_general_spritesheet_14: 1288065980
+      DIOTB_general_spritesheet_5: 777495149
+      DIOTB_general_spritesheet_9: 872719293
+      DIOTB_general_spritesheet_10: -128379840
+      DIOTB_general_spritesheet_21: -208201811
+      DIOTB_general_spritesheet_48: -1886226762
+      DIOTB_general_spritesheet_37: 1185853761
+      DIOTB_general_spritesheet_3: 1025937751
+      DIOTB_general_spritesheet_42: -542928662
+      DIOTB_general_spritesheet_13: -1485850418
+      DIOTB_general_spritesheet_19: -2039358709
+      DIOTB_general_spritesheet_30: 550393226
+      DIOTB_general_spritesheet_44: 948627713
+      DIOTB_general_spritesheet_45: -925258161
+      DIOTB_general_spritesheet_43: 844983204
+      DIOTB_general_spritesheet_38: 78480529
+      DIOTB_general_spritesheet_18: 235508230
+      DIOTB_general_spritesheet_16: -209641546
+      DIOTB_general_spritesheet_6: -1717635645
+      DIOTB_general_spritesheet_11: -950422601
+      DIOTB_general_spritesheet_39: 1982167549
+      DIOTB_general_spritesheet_26: -1381953363
+      DIOTB_general_spritesheet_0: 955147849
+      DIOTB_general_spritesheet_52: -1982724224
+      DIOTB_general_spritesheet_27: 1158498957
+      DIOTB_general_spritesheet_15: 1507813257
+      DIOTB_general_spritesheet_34: -924374542
+      DIOTB_general_spritesheet_24: 1560278206
+      DIOTB_general_spritesheet_22: -659838155
+      DIOTB_general_spritesheet_47: -1897098488
+      DIOTB_general_spritesheet_33: 857654994
+      DIOTB_general_spritesheet_23: 1372320400
+      DIOTB_general_spritesheet_35: -1432979943
+      DIOTB_general_spritesheet_49: -762084191
+      DIOTB_general_spritesheet_8: -1999726461
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

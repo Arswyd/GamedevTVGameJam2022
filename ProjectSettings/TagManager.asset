@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Open
+  - Closed
+  - Ghost
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Ground
+  - Climbing
+  - Player
+  - Background
+  - Bouncing
+  - Enemies
+  - Hazards
+  - Interactables
+  - Walkthrough
+  - Ghost
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1007290629
+    locked: 0
+  - name: Platforms
+    uniqueID: 4058326383
+    locked: 0
+  - name: Hazards
+    uniqueID: 3188689541
+    locked: 0
+  - name: Laser
+    uniqueID: 2874901195
+    locked: 0
+  - name: Interactables
+    uniqueID: 869957299
+    locked: 0
+  - name: Enemies
+    uniqueID: 4141065581
+    locked: 0
+  - name: Player
+    uniqueID: 3060234825
+    locked: 0
+  - name: Walkthrough
+    uniqueID: 1900466347
+    locked: 0
