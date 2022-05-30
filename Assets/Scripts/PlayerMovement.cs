@@ -1,27 +1,29 @@
-using System.Collections;
+// using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
+    [Header("Movement")]
     [SerializeField] float runSpeed = 7f;
     [SerializeField] float jumpSpeed = 12f;
-    [SerializeField] float bounceSpeed = 16f;
-    //[SerializeField] float levelLoadDelay = 1f;
+
+    [Header("VFX")]
     [SerializeField] GameObject playerDeathVFX;
     [SerializeField] GameObject ghostDeathVFX;
  
     Vector2 moveInput;
     Rigidbody2D myRigidbody;
-    Animator myAnimator;
     CapsuleCollider2D myBodyCollider;
     BoxCollider2D myFeetCollider;
-    static AudioPlayer audioPlayer;
-    float gravityScaleAtStart;
 
+    Animator myAnimator;
+    static AudioPlayer audioPlayer;
     DeathHandler deathHandler;
+
     bool isAlive = true;
+    bool hasWon = false;
 
     void Start()
     {
@@ -29,24 +31,17 @@ public class PlayerMovement : MonoBehaviour
        myAnimator = GetComponent<Animator>();
        myBodyCollider = GetComponent<CapsuleCollider2D>();
        myFeetCollider = GetComponent<BoxCollider2D>();
-       gravityScaleAtStart = myRigidbody.gravityScale;
        deathHandler = FindObjectOfType<DeathHandler>();
        audioPlayer = FindObjectOfType<AudioPlayer>();
     }
 
     void Update()
     {
+        if(hasWon) { return; }
         Die();
         if(!isAlive) { return; }
         Run();
-        // Jump();
         FlipSprite();
-        Bounce();
-
-        if(myFeetCollider.IsTouchingLayers(LayerMask.GetMask("Walkthrough")))
-        {
-            Debug.Log("Thouching walk");
-        }
     }
 
     void OnMove(InputValue value) 
@@ -83,33 +78,12 @@ public class PlayerMovement : MonoBehaviour
         myAnimator.SetBool("isRunning", playerHasHorizontalSpeed);
     }
 
-    // void Jump()
-    // {
-    //     if(myFeetCollider.IsTouchingLayers(LayerMask.GetMask("Ground")) || gameObject.tag == "Player" && myFeetCollider.IsTouchingLayers(LayerMask.GetMask("Walkthrough")))
-    //     {
-    //         myAnimator.SetBool("isJumping", false);
-    //     }
-    //     else
-    //     {
-    //         myAnimator.SetBool("isJumping", true);
-    //     }
-    // }
-
     void FlipSprite()
     {
         bool playerHasHorizontalSpeed = Mathf.Abs(myRigidbody.velocity.x) > Mathf.Epsilon;
 
         if(playerHasHorizontalSpeed)
             transform.localScale = new Vector2(Mathf.Sign(myRigidbody.velocity.x), 1f);
-    }
-
-    void Bounce()
-    {
-        if(myFeetCollider.IsTouchingLayers(LayerMask.GetMask("Bouncing")))
-        {
-            Vector2 playerVelocity = new Vector2(myRigidbody.velocity.x, bounceSpeed);
-            myRigidbody.velocity = playerVelocity;
-        }
     }
 
     void Die()
@@ -125,7 +99,7 @@ public class PlayerMovement : MonoBehaviour
                 Destroy(instance, 1);
             }
         }
-        else if(!isAlive && myFeetCollider.IsTouchingLayers(LayerMask.GetMask("Ground")))
+        else if(!isAlive && myFeetCollider.IsTouchingLayers(LayerMask.GetMask("Ground", "Walkthrough")))
         {
             if(gameObject.tag == "Ghost" && ghostDeathVFX != null) 
             {
@@ -134,5 +108,10 @@ public class PlayerMovement : MonoBehaviour
             }
             deathHandler.StartDeathSequence();
         }
+    }
+
+    public void SetWon() 
+    {
+        hasWon = true;
     }
 }

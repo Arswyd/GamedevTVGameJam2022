@@ -1,11 +1,14 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
+// using System;
+// using System.Collections;
+// using System.Collections.Generic;
 using UnityEngine;
 
 public class DoorOpener : MonoBehaviour
 {
+    [Header("Switch")]
     [SerializeField] SwitchHandler switchHandler;
+
+    [Header("State")]
     [SerializeField] GameObject openState;
     [SerializeField] GameObject closedState;
 

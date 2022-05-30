@@ -1,26 +1,30 @@
 using System.Collections;
-using System.Collections.Generic;
+//using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
 
 public class DeathHandler : MonoBehaviour
 {
+    [Header("Grave")]
     [SerializeField] GameObject graveVFX;
     [SerializeField] GameObject graveStone;
+
+    [Header("Ghost")]
     [SerializeField] GameObject ghost;
     [SerializeField] GameObject ghostVFX;
     [SerializeField] float levelLoadDelay = 0.5f;
 
+    [Header("Camera")]
     [SerializeField] CinemachineStateDrivenCamera stateDrivenCamera;
     [SerializeField] CinemachineVirtualCamera idleCamera;
     [SerializeField] CinemachineVirtualCamera runCamera;
 
-    Rigidbody2D myRigidbody;
-    Animator myAnimator;
+    [Header("Win VFX")]
+    [SerializeField] GameObject[] winVFXs;
+
     PlayerMovement playerMovement;
     Vector3 startingPosition;
     AudioPlayer audioPlayer;
-    [SerializeField] CompositeCollider2D tilemapCollider;
 
     bool isAlive = true;
 
@@ -42,11 +46,11 @@ public class DeathHandler : MonoBehaviour
         {
             isAlive = false;
             Vector3 playerPosition = playerMovement.transform.position;
-
-            //if(!isAlive && myRigidbody.velocity.y < Mathf.Epsilon) 
             Destroy(playerMovement.gameObject);
+
             GameObject instance = Instantiate(graveVFX, playerPosition, Quaternion.identity);
             Destroy(instance, 1);
+
             GameObject graveStoneInstance = Instantiate(graveStone, playerPosition, Quaternion.identity);
             audioPlayer.PlayGraveClip();
 
@@ -56,7 +60,6 @@ public class DeathHandler : MonoBehaviour
         {
             Destroy(playerMovement.gameObject);
             StartCoroutine(StartGhostInstantiation(startingPosition, new Vector2(0, 0)));
-
         }
     }
 
@@ -72,5 +75,17 @@ public class DeathHandler : MonoBehaviour
         idleCamera.m_Follow = newPlayer.transform;
         runCamera.m_Follow = newPlayer.transform;
         playerMovement = FindObjectOfType<PlayerMovement>();
+    }
+
+    public void Win()
+    {
+        if (winVFXs != null)
+        {
+            foreach (GameObject winVFX in winVFXs)
+            {
+                winVFX.SetActive(true);
+                playerMovement.SetWon();
+            }
+        }
     }
 }

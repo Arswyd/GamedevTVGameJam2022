@@ -25,11 +25,13 @@ public class LevelExit : MonoBehaviour
             nextSceneIndex = 0;
         }
 
-        // if (nextSceneIndex == 4)
-        // {
-        //     FindObjectOfType<GameSession>().WriteFinishText();
-        // }
-      
-        SceneManager.LoadScene(nextSceneIndex);
+        if (nextSceneIndex == 0)
+        {
+            FindObjectOfType<DeathHandler>().Win();
+        }
+        else
+        {
+            SceneManager.LoadScene(nextSceneIndex);
+        }
     }
 }

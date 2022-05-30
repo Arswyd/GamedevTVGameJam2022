@@ -1,5 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
+// using System.Collections;
+// using System.Collections.Generic;
 using UnityEngine;
 
 public class SwitchHandler : MonoBehaviour
@@ -15,7 +15,7 @@ public class SwitchHandler : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    private void OnTriggerEnter2D(Collider2D other) 
+    void OnTriggerEnter2D(Collider2D other) 
     {
         if (!isColliding && other.tag == "Player")
         {
@@ -25,7 +25,7 @@ public class SwitchHandler : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit2D(Collider2D other) 
+    void OnTriggerExit2D(Collider2D other) 
     {
         if (isColliding && other.tag == "Player")
         {
